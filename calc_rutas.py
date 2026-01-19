@@ -113,7 +113,8 @@ frame_mapa = tk.Frame(
 )
 frame_mapa.pack(padx=10, pady=10)
 
-# Función para generar un mapa aleatorio def generar_mundo():
+# Función para generar un mapa aleatorio 
+def generar_mundo():
     global terreno
 
     # Obtiene las dimensiones del mapa desde los campos de entrada
